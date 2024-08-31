@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Pulkit",
+    "gender": "male",
+    "relationships": [
+      {
+        "type": "wife",
+        "person": "saini"
+      },
+      {
+        "type": "son",
+        "person": [
+          "abc",
+          "xyz"
+        ]
+      },
+      {
+        "type": "brother",
+        "person": [
+          "cde"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "saini",
+    "gender": "female",
+    "relationships": [
+      {
+        "type": "husband",
+        "person": "Pulkit"
+      }
+    ]
+  },
+  {
+    "name": "abc",
+    "gender": "male",
+    "relationships": [
+      {
+        "type": "father",
+        "person": "Pulkit"
+      }
+    ]
+  },
+  {
+    "name": "xyz",
+    "gender": "male",
+    "relationships": [
+      {
+        "type": "father",
+        "person": "Pulkit"
+      }
+    ]
+  },
+  {
+    "name": "cde",
+    "gender": "male",
+    "relationships": [
+      {
+        "type": "brother",
+        "person": [
+          "Pulkit"
+        ]
+      }
+    ]
+  }
+]
